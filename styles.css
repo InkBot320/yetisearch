@@ -1,0 +1,54 @@
+body{
+  font-family: "poppins","helvetica","roboto","arial","sans-serif";
+  margin: 0;
+  padding: 0;
+  background-color: rgb(48, 84, 117);
+}
+
+#searchbutton{
+  background-color: rgb(94, 202, 166);
+  border: none;
+  padding: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+}
+
+#searchbutton:active{
+  background-color: rgb(64, 130, 108);
+}
+
+#searchbutton:hover{
+  background-color: rgb(107, 213, 178);
+}
+
+#searchcontainer{
+  text-align: center;
+  padding: 25px;
+  background: rgb(167,0,255);
+  background: linear-gradient(90deg, rgb(143, 85, 174) 0%, rgb(79, 185, 158) 50%, rgb(121, 163, 106) 100%);
+  width: 100%;
+}
+
+#searchinput{
+  padding: 10px;
+  width: 500px;
+  border: 3px dashed #cda9f5;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#searchresultcontainer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#search-results-iframe{
+  width: 800px;
+  height: 600px;
+  border: 3px dashed #cda9f5;
+  background-image: url(https://acegif.com/wp-content/uploads/loading-98.gif);
+}
